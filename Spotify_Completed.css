@@ -1,0 +1,335 @@
+/* css code goes here */
+/* page 1   */
+body{
+    margin: 0;
+    background-color: rgb(25, 20, 20);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+background-color: rgb(25, 20, 20);
+display: flex;
+justify-content: space-between;
+padding-left: 10px;
+padding-right: 25px;
+}
+
+nav img{
+height: 60px;
+width: 60px;
+}
+
+ul{
+display: flex;
+gap: 15px;
+list-style: none;
+}
+
+li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+li a:hover{
+color: rgb(30, 215, 96);
+}
+
+/* page 2 */
+#download{
+    background-color: rgb(25, 20, 20);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+main h1{
+    font-weight: 700;
+    line-height: 2;
+}
+
+main h2{
+    font-weight: 500;
+    line-height: 3;
+}
+
+main button{
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+main button:hover{
+    scale: 1.02;
+}
+
+@media only screen and (max-width: 650px){
+    main button{
+        width: 100%;
+    }
+}
+
+/* page - 3 */
+#difference-table{
+background-color: rgb(246, 246, 246);
+text-align: center;
+padding: 20px 40px;
+
+}
+
+#difference-table h1{
+font-weight: 700;
+padding: 0px 50px;
+}
+
+table{
+max-width: 500px;
+margin: auto;
+padding: 20px 45px;
+}
+
+table th{
+font-weight: 300;
+}
+
+table td{
+border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.fa-circle-check{
+color: rgb(30, 215, 96);
+font-size: 30px;
+}
+
+.fa-circle-xmark{
+color: rgb(255, 0, 0);
+font-size: 30px;
+}
+
+#difference-table button{
+background-color: rgb(25, 20, 20);
+padding: 12px 40px;
+font-weight: 500;
+border-radius: 20px;
+cursor: pointer;
+font-family: 'Poppins', sans-serif;
+color: rgb(255, 255, 255);
+}
+
+/* page 4 */
+#premium{
+background-color: rgb(255, 255, 255);
+text-align: center;
+padding: 20px;
+
+}
+
+section h2{
+margin: 0;
+
+}
+
+.price-cards{
+/* border: 2px solid red; */
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+/* here i have doubt */
+grid-gap: 10px;
+text-align: left;
+padding: 20px 100px;
+
+}
+
+
+@media only screen and (max-width: 650px){
+   .price-cards{
+       grid-template-columns: 1fr;
+       padding: 20px;
+   } 
+    
+   
+}
+
+
+.price-cards article{
+/* border: 2px solid black; */
+border-radius: 10px;
+box-shadow: 0px 0px 5px 0px rgb(170, 170, 170);
+padding: 20px;
+}
+
+.card-header{
+border-bottom: 1px solid  rgb(170, 170, 170);
+}
+
+.card-header span{
+/* border: 2px solid red; */
+display: inline-block;
+font-size: 0.75rem;
+background-color: rgb(13, 114, 234);
+color:  rgb(255, 255, 255);
+padding: 5px;
+font-weight: 500;
+border-radius: 5px;
+margin-bottom: 5px;
+
+
+}
+
+.card-header h3{
+/* border: 2px solid red; */
+margin-bottom: 0;
+}
+
+.card-header p{
+margin-bottom: 0;
+margin-top: 0;
+font-weight: 300;
+/* border: 2px solid red; */
+}
+
+.card-body li{
+font-weight: 500;
+}
+
+.price-cards button{
+background-color: rgb(25, 20, 20);
+padding: 12px 40px;
+font-family: 'Poppins', sans-serif;
+color: rgb(255, 255, 255);
+font-weight: 500;
+border-radius: 20px;
+cursor: pointer;
+width: 100%;
+
+}
+
+.price-cards button:hover{
+scale: 1.02;
+}
+
+/* page 5 */
+#students-offer{
+background-color: rgb(255, 255, 255);
+text-align: center;
+padding: 20px;
+}
+
+#students-offer button{
+background-color: rgb(255, 255, 255);
+padding: 12px 40px;
+font-family: 'Poppins', sans-serif;
+color: rgb(25, 20, 20);
+font-weight: 700;
+border-radius: 20px;
+cursor: pointer;
+
+}
+
+#students-offer button:hover{
+scale: 1.02;
+}
+
+form{
+/* background-color: orange; */
+margin-top: 20px;
+border: 1px solid rgb(170, 170, 170);
+border-radius: 10px;
+padding: 25px;
+text-align: left;
+/* doubt in above line */
+
+}
+
+#email{
+font-family: 'Poppins', sans-serif;
+padding: 5px;
+width: 100%;
+margin-bottom: 5px;
+}
+
+#first-name{
+font-family: 'Poppins', sans-serif;
+padding: 5px;
+width: 46%;
+
+}
+
+#last-name{
+font-family: 'Poppins', sans-serif;
+padding: 5px;
+width: 46%;
+
+}
+
+@media only screen and (max-width: 649px){
+#first-name{
+width: 100%;
+margin-bottom: 5px;
+}
+
+#last-name{
+ width: 100%;
+}
+
+}
+
+#country {
+font-family: 'Poppins', sans-serif;
+padding: 5px;
+width: 100%;
+margin-bottom: 5px;
+}
+
+#college-university{
+font-family: 'Poppins', sans-serif;
+padding: 5px;
+width: 100%;
+margin-bottom: 5px;
+}
+
+#contact-number{
+display: block;
+font-family: 'Poppins', sans-serif;
+padding: 5px;
+width: 100%;
+margin-bottom: 10px; 
+}
+
+#consent-checkbox{
+cursor: pointer;
+}
+
+form button{
+display: block;
+margin-top: 10px;
+}
+
+/* page 6 */
+footer{
+text-align: center;
+padding: 40px;
+color:  rgb(255, 255, 255);
+}
+
+footer a{
+text-decoration: none;
+}
+
+footer i{
+color: rgb(255, 255, 255);
+margin-left: 10px;
+font-size: 1.5rem;
+}
+
+footer i:hover{
+color: rgb(30, 215, 96);
+}
+
+footer p{
+color: rgb(170, 170, 170);
+}
+
+/* 'Poppins', sans-serif; */
